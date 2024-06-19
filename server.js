@@ -71,4 +71,20 @@ email:email,
 
 });
 });
+
+app.post('/addContact',async (req, res)=> {
+    const name = req.body.name;
+    const message = req.body.message;
+    //  const subject = req.body.subject;
+const email = req.body.email;
+
+const businessDb =  db.collection('ContactUs');
+await businessDb.add({
+name:name,
+message:message,
+// subject: subject,
+email:email,
+
+});
+});
 app.listen(PORT, ()=> console.log('App is listening on url http://localhost:' + PORT))

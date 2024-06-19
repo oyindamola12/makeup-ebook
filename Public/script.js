@@ -15,7 +15,7 @@ function openExclusive2() {
 var phoneNo = document.getElementById('phone').value;
   var email = document.getElementById('email').value;
 
-fetch('https://www.mpageshub.com/exclusive', {
+fetch('http://localhost:8000/exclusive', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -91,7 +91,7 @@ function openStandard2() {
 var phoneNo = document.getElementById('phone').value;
   var email = document.getElementById('email').value;
 
-fetch('https://www.mpageshub.com/standard', {
+fetch('http://localhost:8000/standard', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -163,7 +163,7 @@ function openBasic2() {
 var phoneNo = document.getElementById('phone').value;
   var email = document.getElementById('email').value;
 
-    fetch('https://www.mpageshub.com/basics', {
+    fetch('http://localhost:8000/basics', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json'
@@ -187,3 +187,33 @@ var phoneNo = document.getElementById('phone').value;
 
  //open the paystack's payment modal
 }
+
+// function contact() {
+
+// var phoneNo = document.getElementById('phone').value;
+//   var email = document.getElementById('email').value;
+
+//     fetch('https://www.mpageshub.com/contact', {
+//             method: 'POST',
+//             headers: {
+//               'Content-Type': 'application/json'
+//             },
+//  body:JSON.stringify({
+//  phoneNo:phoneNo,
+//  email: email,
+
+
+//   })
+//            })
+//         .then(response =>  response.json())
+//         .then( async data => {
+//           document.getElementById("centerBasic").style.display = "block";
+//           document.getElementById("overlayBasic").style.display = "none";
+
+//         })
+//         .catch(error => {
+//             console.error('Error sending data to server:', error);
+//         });
+
+//  //open the paystack's payment modal
+// }
