@@ -369,7 +369,8 @@ button:focus {
 		left: 0;
 		width: 100%;
 		height: 100%;
-		background-color: rgba(0, 0, 0, 0.7); /* Change the color and opacity as needed */
+		background-color: rgba(0, 0, 0, 0.7);
+		/* Change the color and opacity as needed */
 
 }
 .mu-hero-left{
@@ -495,6 +496,7 @@ button:focus {
 	float: left;
 	padding: 100px 0;
 	width: 100%;
+	/* background-color: #000; */
 }
 
 .mu-heading-area {
@@ -609,6 +611,7 @@ justify-content: center;
     margin-bottom: 20px;
 	margin-top: 30%; /* Add space below the image */
 }
+
 #overlayBasic {
     position: fixed; /* Sit on top of the page content */
     /* Hidden by default */
@@ -1100,12 +1103,22 @@ justify-content: center;
 	color: #333;
 	font-size: 15px;
 	border: 1px solid #ccc;
-	border-radius: 20px;
+	border-radius: 50px;
 	padding: 6px 15px;
 	height: 45px;
 	margin-bottom: 24px;
 }
 
+/* .form-group{
+	background: transparent;
+	color: #333;
+	font-size: 15px;
+	border: 1px solid #ccc;
+	border-radius: 50px;
+	padding: 6px 15px;
+	height: 45px;
+	margin-bottom: 24px;
+} */
 .mu-contact-form .form-group textarea{
 	color: #333;
 	background: transparent;
