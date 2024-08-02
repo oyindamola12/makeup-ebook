@@ -93,7 +93,7 @@ email:email,
     var handler = PaystackPop.setup({
         key: 'pk_live_b3635cadaea0a7a02518aed3dd9e8ac3d64a83cc', //put your public key here
         email:  email, //put your customer's email here
-        amount:4000*100, //amount the customer is supposed to pay
+        amount:2500*100, //amount the customer is supposed to pay
         metadata: {
             custom_fields: [
                 {
