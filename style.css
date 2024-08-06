@@ -965,7 +965,7 @@ justify-content: center;
 /*--------------------*/
 
 #mu-testimonials {
-	background-image: url("assets/images/realistic_makeup_brand_images(1).jpeg");
+	background-image: url("assets/images/realistic_makeup_brand_images\ \(1\).jpeg");
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
