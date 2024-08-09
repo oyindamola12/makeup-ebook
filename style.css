@@ -915,7 +915,10 @@ justify-content: center;
 	font-size: 22px;
 	margin-right: -10px;
 }
+.mu-pricing-single-head .mu-price-tag p {
+	font-size: 10px;
 
+}
 .mu-price-feature {
 	padding: 20px 0;
 	display: inline-block;
