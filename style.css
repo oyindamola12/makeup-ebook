@@ -910,6 +910,15 @@ justify-content: center;
 	margin-bottom: 0;
 	padding: 15px 0 20px;
 }
+.mu-pricing-single-head .mu-price-tag2{
+	font-size: 55px;
+	font-weight: 700;
+	margin-bottom: 0;
+	padding: 15px 0 20px;
+	text-decoration: line-through;
+	color: red;
+}
+
 
 .mu-pricing-single-head .mu-price-tag span {
 	font-size: 22px;
