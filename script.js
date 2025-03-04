@@ -89,37 +89,38 @@ email:email,
 
 });
 
+document.getElementById("centerStandard2").style.display = "block";
+document.getElementById("overlayStandard").style.display = "none";
+    // var handler = PaystackPop.setup({
+    //     key: 'pk_live_b3635cadaea0a7a02518aed3dd9e8ac3d64a83cc', //put your public key here
+    //     email:  email, //put your customer's email here
+    //     amount:2000*100, //amount the customer is supposed to pay
+    //     metadata: {
+    //         custom_fields: [
+    //             {
+    //                 display_name: "Mobile Number",
+    //                 variable_name: "mobile_number",
 
-    var handler = PaystackPop.setup({
-        key: 'pk_live_b3635cadaea0a7a02518aed3dd9e8ac3d64a83cc', //put your public key here
-        email:  email, //put your customer's email here
-        amount:2000*100, //amount the customer is supposed to pay
-        metadata: {
-            custom_fields: [
-                {
-                    display_name: "Mobile Number",
-                    variable_name: "mobile_number",
+    //             }
+    //         ]
+    //     },
+    //     callback: function (response) {
+    //        if (response.status){
+    //       document.getElementById("centerStandard").style.display = "block";
+    //       document.getElementById("overlayStandard").style.display = "none";
 
-                }
-            ]
-        },
-        callback: function (response) {
-           if (response.status){
-          document.getElementById("centerStandard").style.display = "block";
-          document.getElementById("overlayStandard").style.display = "none";
-
-           }
+    //        }
 
 
 
 
-        },
-        onClose: function () {
-            //when the user close the payment modal
-            alert('Transaction cancelled');
-        }
-    });
-    handler.openIframe(); //open the paystack's payment modal
+    //     },
+    //     onClose: function () {
+    //         //when the user close the payment modal
+    //         alert('Transaction cancelled');
+    //     }
+    // });
+    // handler.openIframe(); //open the paystack's payment modal
 
 
  //open the paystack's payment modal
@@ -167,12 +168,18 @@ email:email,
 
 function closebasicCenter() {
  document.getElementById("centerBasic").style.display = "none";
-
+  window.open("https://roubauteezavoak.net/4/8682406");
  //open the paystack's payment modal
 }
 function closestandardCenter() {
-document.getElementById("centerStandard").style.display = "none";
+document.getElementById("centerStandard2").style.display = "none";
+ window.open("https://roubauteezavoak.net/4/8682406");
+ //open the paystack's payment modal
+}
 
+function closestandardCenter2() {
+
+ window.open("https://roubauteezavoak.net/4/8682406");
  //open the paystack's payment modal
 }
 function closeexclusiveCenter() {

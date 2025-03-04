@@ -573,7 +573,26 @@ justify-content: center;
 justify-content: center;
 	position: fixed; /* Sit on top of the page content */
     /* Hidden by default */
-    display:none ;
+    /* display:none ; */
+	color: #000;
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:white; /* Black background with opacity */
+    z-index: 1; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+
+}
+
+#centerStandard2 {
+    text-align: center;
+justify-content: center;
+	position: fixed; /* Sit on top of the page content */
+    /* Hidden by default */
+     display:none ;
 	color: #000;
     width: 100%; /* Full width (cover the whole page) */
     height: 100%; /* Full height (cover the whole page) */
@@ -610,6 +629,12 @@ justify-content: center;
     height: auto; /* Maintain aspect ratio */
     margin-bottom: 20px;
 	margin-top: 30%; /* Add space below the image */
+}
+.ebook-cover2 {
+    width: 200px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px;
+	 /* Add space below the image */
 }
 
 #overlayBasic {
